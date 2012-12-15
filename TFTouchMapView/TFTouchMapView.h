@@ -1,5 +1,5 @@
 //
-//  TFViewController.h
+//  TFTouchMapView.h
 //  TFTouchMapView
 //
 //  Created by Tom Fewster on 14/12/2012.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface TFViewController : UIViewController
-- (IBAction)enable:(UISwitch *)sender;
+@interface TFTouchMapView : MKMapView
+
 @end

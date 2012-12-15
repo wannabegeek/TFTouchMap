@@ -19,6 +19,8 @@
 		E23F3F2B167B9ED9004CCB9B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23F3F29167B9ED9004CCB9B /* MainStoryboard_iPhone.storyboard */; };
 		E23F3F2E167B9ED9004CCB9B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23F3F2C167B9ED9004CCB9B /* MainStoryboard_iPad.storyboard */; };
 		E23F3F31167B9ED9004CCB9B /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23F3F30167B9ED9004CCB9B /* TFViewController.m */; };
+		E23F3F39167B9F1C004CCB9B /* TFTouchMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = E23F3F38167B9F1C004CCB9B /* TFTouchMapView.m */; };
+		E23F3F3B167B9F34004CCB9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23F3F3A167B9F34004CCB9B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		E23F3F2D167B9ED9004CCB9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E23F3F2F167B9ED9004CCB9B /* TFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
 		E23F3F30167B9ED9004CCB9B /* TFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
+		E23F3F37167B9F1C004CCB9B /* TFTouchMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTouchMapView.h; sourceTree = "<group>"; };
+		E23F3F38167B9F1C004CCB9B /* TFTouchMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTouchMapView.m; sourceTree = "<group>"; };
+		E23F3F3A167B9F34004CCB9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23F3F3B167B9F34004CCB9B /* MapKit.framework in Frameworks */,
 				E23F3F12167B9ED9004CCB9B /* UIKit.framework in Frameworks */,
 				E23F3F14167B9ED9004CCB9B /* Foundation.framework in Frameworks */,
 				E23F3F16167B9ED9004CCB9B /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +64,7 @@
 		E23F3F02167B9ED9004CCB9B = {
 			isa = PBXGroup;
 			children = (
+				E23F3F3A167B9F34004CCB9B /* MapKit.framework */,
 				E23F3F17167B9ED9004CCB9B /* TFTouchMapView */,
 				E23F3F10167B9ED9004CCB9B /* Frameworks */,
 				E23F3F0E167B9ED9004CCB9B /* Products */,
@@ -92,6 +99,8 @@
 				E23F3F2F167B9ED9004CCB9B /* TFViewController.h */,
 				E23F3F30167B9ED9004CCB9B /* TFViewController.m */,
 				E23F3F18167B9ED9004CCB9B /* Supporting Files */,
+				E23F3F37167B9F1C004CCB9B /* TFTouchMapView.h */,
+				E23F3F38167B9F1C004CCB9B /* TFTouchMapView.m */,
 			);
 			path = TFTouchMapView;
 			sourceTree = "<group>";
@@ -181,6 +190,7 @@
 				E23F3F1E167B9ED9004CCB9B /* main.m in Sources */,
 				E23F3F22167B9ED9004CCB9B /* TFAppDelegate.m in Sources */,
 				E23F3F31167B9ED9004CCB9B /* TFViewController.m in Sources */,
+				E23F3F39167B9F1C004CCB9B /* TFTouchMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
